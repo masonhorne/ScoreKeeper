@@ -12,6 +12,8 @@
 		1BFB679B29CCE3DF007F736A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB679A29CCE3DF007F736A /* ContentView.swift */; };
 		1BFB679D29CCE3E2007F736A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFB679C29CCE3E2007F736A /* Assets.xcassets */; };
 		1BFB67A029CCE3E2007F736A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFB679F29CCE3E2007F736A /* Preview Assets.xcassets */; };
+		1BFB67AC29CCE3FB007F736A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB67AB29CCE3FB007F736A /* WelcomeView.swift */; };
+		1BFB67AE29CCE41F007F736A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB67AD29CCE41F007F736A /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		1BFB679A29CCE3DF007F736A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1BFB679C29CCE3E2007F736A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BFB679F29CCE3E2007F736A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BFB67AB29CCE3FB007F736A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1BFB67AD29CCE41F007F736A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		1BFB679729CCE3DF007F736A /* ScoreKeeper Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1BFB67AA29CCE3ED007F736A /* View */,
 				1BFB679829CCE3DF007F736A /* ScoreKeeperApp.swift */,
 				1BFB679A29CCE3DF007F736A /* ContentView.swift */,
 				1BFB679C29CCE3E2007F736A /* Assets.xcassets */,
@@ -92,6 +97,15 @@
 				1BFB679F29CCE3E2007F736A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BFB67AA29CCE3ED007F736A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BFB67AB29CCE3FB007F736A /* WelcomeView.swift */,
+				1BFB67AD29CCE41F007F736A /* GameView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +207,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BFB679B29CCE3DF007F736A /* ContentView.swift in Sources */,
+				1BFB67AC29CCE3FB007F736A /* WelcomeView.swift in Sources */,
+				1BFB67AE29CCE41F007F736A /* GameView.swift in Sources */,
 				1BFB679929CCE3DF007F736A /* ScoreKeeperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
